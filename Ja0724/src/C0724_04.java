@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C0724_04 {
-	// 로또 번호 맞추기 입력번호, 로또번호 출력 - 중요 외우기** //
+	// 로또 번호 맞추기 입력번호, 로또번호 출력 - 중요 외우기** // 
 
 	public static void main(String[] args) {
 		// 1-45 까지 숫자 6개를 입력받고
