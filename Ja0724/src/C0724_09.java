@@ -53,7 +53,7 @@ public class C0724_09 {
 				break;
 			case 2:
 				System.out.println("[ 학생성적출력 ]");
-				for(int i=0; i<title.length; i++) {
+				for(int i=0; i<count; i++) {
 					System.out.print(title[i]+"\n");
 				}
 				System.out.println("-------------------------------------------------------");
@@ -66,6 +66,7 @@ public class C0724_09 {
 					System.out.print(total[i]+"\t");
 					System.out.printf("%.2f \n", avg[i]);
 				}
+				System.out.println();
 				break;
 			case 3:
 				System.out.println("[ 학생성적수정 ]");
