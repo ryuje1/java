@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class C0724_09 {
-	// 학생성적프로그램 - 입력, 출력, 수정  중요 외우기** //
+	// 학생성적프로그램 - 입력, 출력, 수정  중요 외우기** // 
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
