@@ -1,6 +1,6 @@
 
 public class C0725_01 {
-	// 기본형 8개 정리 //
+	// 기본형 8개 정리 // 
 
 	public static void main(String[] args) {
 		// boolean, char, byte, short, int, long, float, double
