@@ -92,7 +92,7 @@ public class C0725_10 {
 						
 						switch(choice) {
 						case 1: case 2: case 3:
-//							int current = score[count][]
+//							int current = score[count][] 
 //							System.out.printf("현재 %s 성적 : %d", );
 							break;
 						case 0:
