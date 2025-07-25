@@ -58,7 +58,7 @@ public class C0725_10 {
 				System.out.println("-------------------------------------------------------");
 				
 				// 학생 정보 및 성적 출력
-				for(int i=0; i<name.length; i++) {
+				for(int i=0; i<count; i++) {
 					System.out.print(no[i]+"\t");
 					System.out.print(name[i]+"\t");
 					for(int j=0; j<score[i].length; j++) {
@@ -67,6 +67,7 @@ public class C0725_10 {
 					System.out.print(total[i]+"\t");
 					System.out.printf("%.2f \n", avg[i]);
 				}
+				System.out.println();
 				
 				break;
 			case 3:		// 학생 성적 수정
@@ -91,8 +92,8 @@ public class C0725_10 {
 						
 						switch(choice) {
 						case 1: case 2: case 3:
-							int current = score[count][]
-							System.out.printf("현재 %s 성적 : %d", );
+//							int current = score[count][]
+//							System.out.printf("현재 %s 성적 : %d", );
 							break;
 						case 0:
 							System.out.println("이전화면으로 이동합니다.");
