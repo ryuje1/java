@@ -11,6 +11,10 @@ public class C0729_04 {
 		
 	}
 	
+
+}
+
+
 class Data1 {
 	Data1(){} // 생성자 - 기본생성자 자동생성
 	int value;
@@ -22,6 +26,4 @@ class Data2 {
 	Data2(int x, int y){	// 매개변수가 있는 생성자, 전체생성자
 		value = x;
 	}
-}
-
 }
