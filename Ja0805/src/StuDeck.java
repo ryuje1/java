@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class StuDeck {
 	Scanner scan = new Scanner(System.in);
-	
+	 
 	private int no=0,kor=0,eng=0,math=0,total=0,rank=0,choice=0,temp=0;
 	private double avg = 0;
 	private String name = "";

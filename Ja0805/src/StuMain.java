@@ -18,7 +18,7 @@ public class StuMain {
 		int[] score = new int[3];
 		
 		//파일읽어오기
-		stuDeck.stuFileRead(list); 
+		stuDeck.stuFileRead(list);
 		
 		loop:while(true) {
 			// 상단메뉴 출력 메소드 호출
