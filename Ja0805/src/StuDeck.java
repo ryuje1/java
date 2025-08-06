@@ -64,7 +64,7 @@ public class StuDeck {
 	public void stu_input(ArrayList<Student> list) {
 		System.out.println();
 		System.out.println("[ 학생성적 입력 ]");
-		System.out.printf("%d번째 학생이름을 입력하세요. (0. 이전페이지 이동)  ", Student.count);
+		System.out.printf("%d번째 학생이름을 입력하세요. (0. 이전페이지 이동)  ", Student.count+1);
 		name = scan.next();
 		// 0 입력시 이전페이지 이동
 		if(name.equals("0")) return;	// 메소드 실행중지

@@ -10,7 +10,7 @@ public class Student {
 	private double avg;
 	private int rank;
 	
-	{no = ++count;}
+	{no = ++count;} 
 	
 	Student(){}
 	Student(String name, int kor, int eng, int math){
